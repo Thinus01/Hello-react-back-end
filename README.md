@@ -133,7 +133,7 @@ You can visit the app using [Render](https://www.render.com/)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/lawrahkonwea/Rails_blog_app/issues).
+Feel free to check the [issues page](https://github.com/Thinus01/Hello-react-back-end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
