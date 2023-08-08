@@ -1,0 +1,23 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: postgres
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  password: 5432
+
+development:
+  <<: *default
+  database: react_development
+
+test:
+  <<: *default
+  database: react_test
+
+production:
+  <<: *default
+  database: react_production
+  username: postgres
+  password: 5432
+
